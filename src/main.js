@@ -4,6 +4,9 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+import styles from '@/styles/app.scss'
+
+
 Vue.config.productionTip = false
 
 new Vue({

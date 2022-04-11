@@ -1,0 +1,54 @@
+/* Overraides default value */
+$primary: rgba(89, 50, 234, 1);
+;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+$body-bg: #ebeef2;
+$body-color: #334155;
+
+/* Components custom colors */
+
+$header: rgba(225, 225, 225, 0.75);
+$block-component: #f6f7f9;
+$block: white;
+
+$setting: rgba(40, 53, 71, 0.3);
+$interface-icons: #2F3C4E;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "body-bg": $body-bg,
+    "body-color": $body-color,
+
+    /* Custom */
+    "header": $header,
+    "block-component": $block-component,
+    "block": $block,
+    "setting": $setting,
+    "interface-icons": $interface-icons,
+);
+
+
+
+
+/* $theme-colors: (
+    "setting": rgba(40, 53, 71, 0.3),
+    "block": white,
+    "body-bg": #ebeef2,
+    "body-color": #334155,
+    "block-comp": #f6f7f9,
+    "header": rgba(225, 225, 225, 0.75),
+    "interface-icons": #2F3C4E,
+); */
