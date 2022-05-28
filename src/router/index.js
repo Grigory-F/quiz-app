@@ -1,21 +1,44 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-/* import HomeView from '../views/HomeView.vue' */
+import Base from '../views/TheBase.vue'
+import Home from '../views/TheHome.vue'
+import Auth from '../views/TheAuth.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-  /* {
-    path: '/',
-    name: 'home',
-    component: HomeView
+  {
+    path: '/auth',
+    name: 'Auth',
+    component: Auth
   },
   {
-    path: '/about',
-    name: 'about',
-
-    component: () => import('../views/AboutView.vue')
+    path: '/',
+    name: 'base',
+    component: Base,
+    redirect: '/home',
+    children: [
+      {
+        path: '/home',
+        name: 'Home',
+        component: Home
+      }
+    ]
+  }/* ,
+  {
+    path: '/quiz',
+    name: 'quiz',
+    component: Base,
+    redirect: '/home',
+    children: [
+      {
+        path: '/home',
+        name: 'Home',
+        component: Home
+      }
+    ]
   } */
+
 ]
 
 const router = new VueRouter({

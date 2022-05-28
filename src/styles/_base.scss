@@ -1,17 +1,15 @@
 /* @use "helpers/variables" as var; */
 
-
-#app {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-    min-width: 320px;
-    min-height: 100vh;
+.aside {
+    height: 100vh;
+    min-width: 300px;
 }
 
 .interface-icons {
-    fill: var(--bs-interface-icons)
+    fill: var(--bs-interface-icons);
+}
+.box-icon {
+    display: flex;
 }
 
 .box-images {
@@ -144,9 +142,13 @@
 
 .main-container {
     display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-    max-width: 100%;
+    height: 100vh;
+}
+
+.content-box {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
 }
 
 .block-header {
