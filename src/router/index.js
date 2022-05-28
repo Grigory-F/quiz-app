@@ -1,21 +1,33 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-/* import HomeView from '../views/HomeView.vue' */
+import Base from '../views/Base.vue'
+import SecondPage from '../views/SecondPage.vue'
+import Home from '../views/Home.vue'
+import Auth from '../views/Auth.vue'
+
 
 Vue.use(VueRouter)
 
 const routes = [
-  /* {
-    path: '/',
-    name: 'home',
-    component: HomeView
+  {
+    path: '/auth',
+    name: 'Auth',
+    component: Auth
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/',
+    name: 'base',
+    component: Base,
+    redirect: '/home',
+    children: [
+      {
+        path: '/home',
+        name: 'Home',
+        component: Home,
+      },
+    ]
+  },
 
-    component: () => import('../views/AboutView.vue')
-  } */
 ]
 
 const router = new VueRouter({

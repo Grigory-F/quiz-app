@@ -1,6 +1,5 @@
 /* Overraides default value */
 $primary: rgba(89, 50, 234, 1);
-;
 $secondary: #6c757d;
 $success: #198754;
 $info: #0dcaf0;
@@ -13,8 +12,6 @@ $body-color: #334155;
 
 /* Components custom colors */
 
-$header: rgba(225, 225, 225, 0.75);
-$block-component: #f6f7f9;
 $block: white;
 
 $setting: rgba(40, 53, 71, 0.3);
@@ -33,8 +30,6 @@ $theme-colors: (
     "body-color": $body-color,
 
     /* Custom */
-    "header": $header,
-    "block-component": $block-component,
     "block": $block,
     "setting": $setting,
     "interface-icons": $interface-icons,
