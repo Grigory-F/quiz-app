@@ -5,7 +5,7 @@ import router from './router'
 import store from './store'
 
 import styles from '@/styles/app.scss'
-
+import baseComponents from '@/baseComponents.js'
 
 Vue.config.productionTip = false
 

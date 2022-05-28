@@ -1,10 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Base from '../views/Base.vue'
-import SecondPage from '../views/SecondPage.vue'
-import Home from '../views/Home.vue'
-import Auth from '../views/Auth.vue'
-
+import Base from '../views/TheBase.vue'
+import Home from '../views/TheHome.vue'
+import Auth from '../views/TheAuth.vue'
 
 Vue.use(VueRouter)
 
@@ -23,10 +21,23 @@ const routes = [
       {
         path: '/home',
         name: 'Home',
-        component: Home,
-      },
+        component: Home
+      }
     ]
-  },
+  }/* ,
+  {
+    path: '/quiz',
+    name: 'quiz',
+    component: Base,
+    redirect: '/home',
+    children: [
+      {
+        path: '/home',
+        name: 'Home',
+        component: Home
+      }
+    ]
+  } */
 
 ]
 

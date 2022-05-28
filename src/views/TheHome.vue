@@ -36,7 +36,7 @@
                       <span class="fw-bold text-primary">24</span>
                     </p>
                   </div>
-                  <!--                     git subthree push --prefix dist origin gh-pages 
+                  <!--                     git subthree push --prefix dist origin gh-pages
                   -->
                   <div class="d-flex flex-wrap gap-3 mb-4">
                     <button class="btn btn-primary bg-transparent text-primary btn-lg">Результаты</button>
@@ -71,7 +71,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style>

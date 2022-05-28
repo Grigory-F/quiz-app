@@ -9,13 +9,14 @@ $light: #f8f9fa;
 $dark: #212529;
 $body-bg: #ebeef2;
 $body-color: #334155;
+$aside-color: #ffffff;
 
 /* Components custom colors */
 
 $block: white;
 
 $setting: rgba(40, 53, 71, 0.3);
-$interface-icons: #2F3C4E;
+$interface-icons: #2f3c4e;
 
 $theme-colors: (
     "primary": $primary,
@@ -29,21 +30,28 @@ $theme-colors: (
     "body-bg": $body-bg,
     "body-color": $body-color,
 
-    /* Custom */
+    /* Custom */ "aside-color": $aside-color,
     "block": $block,
     "setting": $setting,
     "interface-icons": $interface-icons,
 );
 
+$font-size-base: 1rem;
 
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+$h7-font-size:                $font-size-base * .87;
 
-
-/* $theme-colors: (
-    "setting": rgba(40, 53, 71, 0.3),
-    "block": white,
-    "body-bg": #ebeef2,
-    "body-color": #334155,
-    "block-comp": #f6f7f9,
-    "header": rgba(225, 225, 225, 0.75),
-    "interface-icons": #2F3C4E,
-); */
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: $h7-font-size,
+);
