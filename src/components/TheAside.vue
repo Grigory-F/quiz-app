@@ -77,6 +77,11 @@
 
 <script>
 export default {
+  data: () => {
+    return {
+      wtr1: 'awdawdawd'
+    }
+  }
 
 }
 </script>
