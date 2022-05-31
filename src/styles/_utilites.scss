@@ -1,0 +1,12 @@
+$width-sizes: (
+    0: 100px,
+    1: 150px,
+    2: 200px,
+    small: 50px
+);
+
+@each $index, $size in $width-sizes {
+    .width-#{$index} {
+        min-width: #{$size} !important;
+    }
+}
