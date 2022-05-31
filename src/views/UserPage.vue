@@ -115,6 +115,11 @@
 // eslint-disable-next-line quotes
 import { tns } from "tiny-slider";
 export default {
+  data: () => {
+    return {
+      str: 'awdawdwad'
+    }
+  },
   components: {},
   mounted () {
     tns({
