@@ -4,9 +4,13 @@ import Base from '../views/TheBase.vue'
 import Home from '../views/TheHome.vue'
 import Auth from '../views/TheAuth.vue'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import UserPage from '../views/UserPage.vue'
 >>>>>>> work
+=======
+import UserPage from '../views/UserPage.vue'
+>>>>>>> parent of 82eb2ea (awdad f wf w)
 
 Vue.use(VueRouter)
 
@@ -27,13 +31,19 @@ const routes = [
         name: 'Home',
         component: Home
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 82eb2ea (awdad f wf w)
       },
       {
         path: '/user-page',
         name: 'UserPage',
         component: UserPage
+<<<<<<< HEAD
 >>>>>>> work
+=======
+>>>>>>> parent of 82eb2ea (awdad f wf w)
       }
     ]
   }/* ,

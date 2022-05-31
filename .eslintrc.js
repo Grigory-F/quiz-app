@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
   }
 }
@@ -22,3 +23,9 @@ module.exports = {
   }
 };
 >>>>>>> work
+=======
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    semi: 0
+  }
+};
+>>>>>>> parent of 82eb2ea (awdad f wf w)
