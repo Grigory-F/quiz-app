@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import Base from '../views/TheBase.vue'
 import Home from '../views/TheHome.vue'
 import Auth from '../views/TheAuth.vue'
-import UserPage from '../views/UserPage.vue'
 
 Vue.use(VueRouter)
 
@@ -23,11 +22,6 @@ const routes = [
         path: '/home',
         name: 'Home',
         component: Home
-      },
-      {
-        path: '/user-page',
-        name: 'UserPage',
-        component: UserPage
       }
     ]
   }/* ,

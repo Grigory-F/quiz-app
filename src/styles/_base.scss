@@ -2,56 +2,7 @@
 
 .aside {
     height: 100vh;
-    width: 100%;
-    max-width: 300px;
-    padding: 40px;
-    /* &--expanded {
-    } */
-}
-
-@media (max-width: 991px) {
-    .aside {
-        max-width: 100px;
-        padding: 20px;
-    }
-}
-
-.box-image {
-    position: relative;
-    & > img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    &--square::before {
-        content: "";
-        display: block;
-        position: relative;
-        padding-bottom: 100%;
-    }
-}
-
-.aside-link {
-    &:hover {
-        color: $primary;
-    }
-    & svg {
-        fill: $primary;
-    }
-    &--active {
-        background-color: $primary;
-        transition: 0.3s ease;
-        color: white;
-        &:hover {
-            color: white;
-        }
-        & svg {
-            fill: white;
-        }
-    }
+    min-width: 300px;
 }
 
 .interface-icons {
