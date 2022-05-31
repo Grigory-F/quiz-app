@@ -23,6 +23,11 @@
               <div class="me-2"><BaseSystemIcons name="check"/></div>
               <span class="text-primary fs-7">awdawd add</span>
             </a>
+              <div class="me-lg-2">
+                <BaseSystemIcons name="check" />
+              </div>
+              <span class="d-lg-inline d-none">awdawd add awdawd</span>
+            </router-link>
           </li>
           <li class="w-100">
             <a
