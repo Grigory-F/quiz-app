@@ -27,7 +27,7 @@
               <div class="me-lg-2">
                 <BaseSystemIcons name="check" />
               </div>
-              <span class="d-lg-inline d-none">awdawd add</span>
+              <span class="d-lg-inline d-none">awdawd add awdawd</span>
             </router-link>
           </li>
           <li class="w-100">
