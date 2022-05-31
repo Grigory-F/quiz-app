@@ -24,9 +24,6 @@
               class="aside-link p-3 shadow-sm d-flex align-items-center border border-primary rounded-3 mb-3 text-decoration-none justify-content-center justify-content-lg-start"
               exact-active-class="aside-link--active"
             >
-              <div class="me-2"><BaseSystemIcons name="check"/></div>
-              <span class="text-primary fs-7">awdawd add</span>
-            </a>
               <div class="me-lg-2">
                 <BaseSystemIcons name="check" />
               </div>
